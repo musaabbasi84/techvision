@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechVision Solutions - IT Services & Consulting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="-1 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <g transform="translate(-381, -8039)">
+                                <g transform="translate(56, 160)">
+                                    <path d="M336.622775,7895.01452 C333.022714,7895.3213 329.929083,7892.89808 329.177444,7889.58357 C328.445822,7886.35728 330.675718,7883.02874 333.977526,7883.00969 C336.468644,7882.99565 338.540405,7884.8043 338.941747,7887.1814 C339.245004,7888.98202 338.148072,7890.82275 336.33453,7891.01324 C334.529995,7891.20273 333.0067,7889.7911 333.0067,7888.02256 C333.0067,7887.46914 333.455081,7887.01999 334.007551,7887.01999 C334.560021,7887.01999 335.008402,7887.46914 335.008402,7888.02256 C335.008402,7888.57598 335.456783,7889.02513 336.009253,7889.02513 C336.561723,7889.02513 337.010104,7888.57598 337.010104,7888.02256 C337.010104,7886.25402 335.486809,7884.84239 333.682275,7885.03188 C331.868733,7885.22337 330.7718,7887.0631 331.075058,7888.86372 C331.476399,7891.24183 333.548161,7893.04947 336.039279,7893.03543 C339.341086,7893.01638 341.570982,7889.68784 340.83936,7886.46155 C339.941597,7882.49938 335.695987,7879.81147 331.240198,7881.5369 C328.964263,7882.41716 327.340883,7884.52758 327.062646,7886.95582 C326.472144,7892.11507 330.230339,7896.53241 335.138513,7897.00463 C335.637937,7897.05275 336.009253,7897.49088 336.009253,7897.99417 C336.009253,7898.5917 335.488811,7899.05489 334.894305,7898.99474 C329.388624,7898.44031 325.07996,7893.82346 325.000893,7888.18097 C324.940842,7883.91401 327.915371,7880.06111 332.086918,7879.1989 C337.477502,7878.08404 342.265573,7881.79657 342.935142,7886.81546 C343.469596,7890.82075 340.642192,7894.67164 336.622775,7895.01452"/>
+                                </g>
+                            </g>
+                        </svg>
+                        <span>TechVision</span>
+                    </div>
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#technologies" class="nav-link">Technologies</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                    <button class="hamburger" id="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="particleCanvas" class="particle-canvas" aria-hidden="true"></canvas>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transforming Businesses Through Technology</h1>
+                <p class="hero-subtitle">We deliver cutting-edge IT solutions that drive innovation, efficiency, and growth for your business.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About TechVision</h2>
+                <p class="section-subtitle">Your Trusted Technology Partner</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>With over a decade of experience in the IT industry, TechVision Solutions has been at the forefront of technological innovation, helping businesses of all sizes achieve their digital transformation goals.</p>
+                    <p>Our team of certified professionals combines deep technical expertise with business acumen to deliver solutions that not only meet your current needs but also position you for future success.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h3 class="stat-number">500+</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">250+</h3>
+                            <p class="stat-label">Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">10+</h3>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3 class="stat-number">50+</h3>
+                            <p class="stat-label">Expert Team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive IT Solutions Tailored to Your Needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Cloud Solutions</h3>
+                    <p class="service-description">Scalable cloud infrastructure and migration services to optimize your operations and reduce costs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Custom Software Development</h3>
+                    <p class="service-description">Tailored software solutions designed to meet your unique business requirements and workflows.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="5" y="2" width="14" height="20" rx="2"/>
+                            <line x1="12" y1="18" x2="12.01" y2="18"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Mobile App Development</h3>
+                    <p class="service-description">Native and cross-platform mobile applications that engage users and drive business growth.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 16v-4M12 8h.01"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">IT Consulting</h3>
+                    <p class="service-description">Strategic technology consulting to align your IT infrastructure with business objectives.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Cybersecurity</h3>
+                    <p class="service-description">Comprehensive security solutions to protect your digital assets and ensure compliance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">DevOps & Automation</h3>
+                    <p class="service-description">Streamline your development pipeline with modern DevOps practices and automation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="technologies">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technologies & Expertise</h2>
+                <p class="section-subtitle">Leveraging Cutting-Edge Tools and Frameworks</p>
+            </div>
+            <div class="tech-categories">
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Frontend</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">Angular</span>
+                        <span class="tech-badge">Vue.js</span>
+                        <span class="tech-badge">TypeScript</span>
+                        <span class="tech-badge">Next.js</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Backend</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">.NET</span>
+                        <span class="tech-badge">Java</span>
+                        <span class="tech-badge">Go</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Cloud & DevOps</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">AWS</span>
+                        <span class="tech-badge">Azure</span>
+                        <span class="tech-badge">Google Cloud</span>
+                        <span class="tech-badge">Docker</span>
+                        <span class="tech-badge">Kubernetes</span>
+                    </div>
+                </div>
+                <div class="tech-category">
+                    <h3 class="tech-category-title">Database</h3>
+                    <div class="tech-items">
+                        <span class="tech-badge">PostgreSQL</span>
+                        <span class="tech-badge">MongoDB</span>
+                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">Redis</span>
+                        <span class="tech-badge">DynamoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-choose">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose TechVision</h2>
+                <p class="section-subtitle">What Sets Us Apart from the Competition</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-number">01</div>
+                    <h3 class="feature-title">Expert Team</h3>
+                    <p class="feature-description">Our certified professionals bring years of experience and industry best practices to every project.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">02</div>
+                    <h3 class="feature-title">Agile Methodology</h3>
+                    <p class="feature-description">We use agile practices to deliver projects on time with continuous feedback and iteration.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">03</div>
+                    <h3 class="feature-title">24/7 Support</h3>
+                    <p class="feature-description">Round-the-clock technical support to ensure your systems run smoothly without interruption.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-number">04</div>
+                    <h3 class="feature-title">Scalable Solutions</h3>
+                    <p class="feature-description">Our solutions grow with your business, ensuring long-term value and flexibility.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Portfolio</h2>
+                <p class="section-subtitle">Recent Projects We're Proud Of</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: #1e3a5f;">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                                <line x1="12" y1="22.08" x2="12" y2="12"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">E-Commerce Platform</h3>
+                        <p class="portfolio-description">Built a scalable e-commerce solution handling 100K+ daily transactions with real-time inventory management.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: #334155;">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Healthcare Management System</h3>
+                        <p class="portfolio-description">Developed a HIPAA-compliant system for patient records, scheduling, and telemedicine integration.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Angular</span>
+                            <span class="tag">.NET</span>
+                            <span class="tag">Azure</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder" style="background: #0f2744;">
+                            <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/>
+                                <polyline points="13 2 13 9 20 9"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Financial Analytics Dashboard</h3>
+                        <p class="portfolio-description">Created real-time analytics platform for financial data visualization and predictive modeling.</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Vue.js</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What Our Clients Say About Us</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"TechVision transformed our outdated infrastructure into a modern, cloud-based solution. Their expertise and professionalism were exceptional throughout the entire project."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JD</div>
+                        <div class="author-info">
+                            <h4 class="author-name">John Davidson</h4>
+                            <p class="author-position">CTO, RetailCorp</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Working with TechVision was a game-changer for our business. They delivered a custom solution that exceeded our expectations and was delivered on time and within budget."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SM</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Sarah Martinez</h4>
+                            <p class="author-position">CEO, HealthPlus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"The team's technical knowledge and ability to understand our business needs made all the difference. Our new mobile app has increased customer engagement by 300%."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <h4 class="author-name">Robert Kim</h4>
+                            <p class="author-position">VP of Technology, FinanceHub</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's Discuss Your Next Project</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Address</h4>
+                            <p>123 Tech Street, Silicon Valley<br>CA 94025, United States</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" aria-label="WhatsApp" role="img" width="24" height="24" viewBox="0 0 512 512" fill="#25d366"><rect width="512" height="512" rx="15%" fill="#25d366"></rect><path fill="#25d366" stroke="#ffffff" stroke-width="26" d="M123 393l14-65a138 138 0 1150 47z"></path><path fill="#ffffff" d="M308 273c-3-2-6-3-9 1l-12 16c-3 2-5 3-9 1-15-8-36-17-54-47-1-4 1-6 3-8l9-14c2-2 1-4 0-6l-12-29c-3-8-6-7-9-7h-8c-2 0-6 1-10 5-22 22-13 53 3 73 3 4 23 40 66 59 32 14 39 12 48 10 11-1 22-10 27-19 1-3 6-16 2-18"></path></svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone</h4>
+                            <p>+92 (334) 220-7766<br>+92 (310) 552-2669</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <p>info@techvision.com<br>support@techvision.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        <span class="error-message" id="subjectError"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        <span class="error-message" id="messageError"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+                    <div class="form-success" id="formSuccess">Thank you! Your message has been sent successfully.</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="-1 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                            <g transform="translate(-381, -8039)">
+                                <g transform="translate(56, 160)">
+                                    <path d="M336.622775,7895.01452 C333.022714,7895.3213 329.929083,7892.89808 329.177444,7889.58357 C328.445822,7886.35728 330.675718,7883.02874 333.977526,7883.00969 C336.468644,7882.99565 338.540405,7884.8043 338.941747,7887.1814 C339.245004,7888.98202 338.148072,7890.82275 336.33453,7891.01324 C334.529995,7891.20273 333.0067,7889.7911 333.0067,7888.02256 C333.0067,7887.46914 333.455081,7887.01999 334.007551,7887.01999 C334.560021,7887.01999 335.008402,7887.46914 335.008402,7888.02256 C335.008402,7888.57598 335.456783,7889.02513 336.009253,7889.02513 C336.561723,7889.02513 337.010104,7888.57598 337.010104,7888.02256 C337.010104,7886.25402 335.486809,7884.84239 333.682275,7885.03188 C331.868733,7885.22337 330.7718,7887.0631 331.075058,7888.86372 C331.476399,7891.24183 333.548161,7893.04947 336.039279,7893.03543 C339.341086,7893.01638 341.570982,7889.68784 340.83936,7886.46155 C339.941597,7882.49938 335.695987,7879.81147 331.240198,7881.5369 C328.964263,7882.41716 327.340883,7884.52758 327.062646,7886.95582 C326.472144,7892.11507 330.230339,7896.53241 335.138513,7897.00463 C335.637937,7897.05275 336.009253,7897.49088 336.009253,7897.99417 C336.009253,7898.5917 335.488811,7899.05489 334.894305,7898.99474 C329.388624,7898.44031 325.07996,7893.82346 325.000893,7888.18097 C324.940842,7883.91401 327.915371,7880.06111 332.086918,7879.1989 C337.477502,7878.08404 342.265573,7881.79657 342.935142,7886.81546 C343.469596,7890.82075 340.642192,7894.67164 336.622775,7895.01452"/>
+                                </g>
+                            </g>
+                        </svg>
+                        <span>TechVision</span>
+                    </div>
+                    <p class="footer-description">Transforming businesses through innovative technology solutions and expert IT services.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">Custom Development</a></li>
+                        <li><a href="#services">Mobile Apps</a></li>
+                        <li><a href="#services">Cybersecurity</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">Newsletter</h3>
+                    <p class="footer-newsletter-text">Subscribe to our newsletter for the latest tech insights and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn-newsletter">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechVision Solutions. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
