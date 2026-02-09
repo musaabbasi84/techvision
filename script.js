@@ -79,6 +79,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     initParticleEffect();
 
+    // Dynamic copyright year
+    const yearEl = document.getElementById('copyrightYear');
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
+
     // Mobile Navigation Toggle
     const hamburger = document.getElementById('hamburger');
     const navMenu = document.querySelector('.nav-menu');
